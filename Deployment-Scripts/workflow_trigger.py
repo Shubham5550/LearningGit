@@ -29,6 +29,6 @@ def trigger_workflow(Workflow_Name):
       requests.post(
             f"https://api.github.com/repos/{OWNER}/{REPO}/dispatches",
             json=data,
-            header=headers
+            headers=headers
       )
 trigger_workflow(Workflow_Name)
