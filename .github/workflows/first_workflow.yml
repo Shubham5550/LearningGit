@@ -28,7 +28,7 @@ jobs:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
     env: 
-      pat_token: "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"
+      pat_token: ""
     #  payload_Baseline_Number: "BSL_001"
     # payload_Baseline_Revision: "zsfdgsdbgngffdwdx1dxvv2"
 
