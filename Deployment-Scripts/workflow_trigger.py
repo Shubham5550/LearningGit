@@ -26,7 +26,7 @@ def trigger_workflow(Workflow_Name):
           #'revision_number': pl_Baseline_Revision
         }
       }
-      request.post(
+      requests.post(
             f"https://api.github.com/repos/{OWNER}/{REPO}/dispatches",
             json=data,
             header=headers
